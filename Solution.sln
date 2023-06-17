@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".files", ".files", "{EBFBE9EC-8BBE-4080-86F3-201E68268029}"
+ProjectSection(SolutionItems) = preProject
+	.editorconfig = .editorconfig
+	.gitattributes = .gitattributes
+	.gitignore = .gitignore
+	CHANGELOG.md = CHANGELOG.md
+	LICENSE = LICENSE
+	README.md = README.md
+	global.json = global.json
+EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".config", ".config", "{B0F8AC6D-88B6-4981-8987-AB4B0635482F}"
+	ProjectSection(SolutionItems) = preProject
+		.config\dotnet-tools.json = .config\dotnet-tools.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A3FE360B-E0E9-470A-B0A3-87E1B6E3B415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_WinFormsApp", "src\WinFormsApp\_WinFormsApp.csproj", "{BE7ED9E3-02DD-44CA-BF58-B0189953E3BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsApp", "src\WinFormsApp\WinFormsApp.csproj", "{989ED47A-4870-45BB-9DFD-E8ECEBD3447A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BE7ED9E3-02DD-44CA-BF58-B0189953E3BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BE7ED9E3-02DD-44CA-BF58-B0189953E3BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BE7ED9E3-02DD-44CA-BF58-B0189953E3BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989ED47A-4870-45BB-9DFD-E8ECEBD3447A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{989ED47A-4870-45BB-9DFD-E8ECEBD3447A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{989ED47A-4870-45BB-9DFD-E8ECEBD3447A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{989ED47A-4870-45BB-9DFD-E8ECEBD3447A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BE7ED9E3-02DD-44CA-BF58-B0189953E3BD} = {A3FE360B-E0E9-470A-B0A3-87E1B6E3B415}
+		{989ED47A-4870-45BB-9DFD-E8ECEBD3447A} = {A3FE360B-E0E9-470A-B0A3-87E1B6E3B415}
+	EndGlobalSection
+EndGlobal
